@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+
+
+#line1 {
+    background-color: #F5C6D6;
+    width: 90%;
+    height: 25px;
+    
+        
+}
+
+.line2 {
+   background-color: #EE2E84;
+    width: 25%;
+    height: 25px;
+    
+         
+}
+
+.line3 {
+    background-color: #85CFD8;
+    width: 90%;
+    height: 25px;
+    
+        
+}

@@ -1,0 +1,30 @@
+
+
+body {
+    
+    }
+
+header {
+    font-size: 25px
+}
+
+p {
+    display: inline-block;
+    width: 30%;
+        
+}
+
+
+ img {
+   display: inline-block;
+    width: 35% 
+}
+
+#make-red {
+    color: red;
+}
+
+.make-bold {
+    font-size: 100%;
+    font-style: oblique;
+}
