@@ -1,0 +1,78 @@
+<!DOCYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mario Pest Control</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+       <div class="jumbotron">
+           <hi>Mario's Pest Control<img src="Images/super-mario-galaxy-20071015105141401.jpg" alt="super-mario-galawy" style="height: 200px"></hi>
+           
+        </div>
+          <div class="container">
+           <div class="row">
+               <div class="col-sm-4">
+                  <h2>Goomba</h2>
+                   <img src="Images/200px-Goomba_Artwork_-_Super_Mario_3D_World.png" alt="Goomba">
+                   <h4><span id="goombaCoin">5</span> coins each.</h4>
+                  </div> 
+                 <div class="col-sm-4"> 
+                    <h2>Bob-omb</h2>
+                   <img src="Images/BobombNSMBU.png" alt="Bob-bom" style="width: 200px">
+                  <h4><span id="bobombCost">7</span> coins each.</h4>
+                  </div>
+                  <div class="col-sm-4">
+                   <h2>Cheep-cheep</h2>
+                   <img src="Images/200px-CheepCheepNSMBU.png" alt="cheep-cheep">  
+                   <h4><span id="cheepcheepcost">11</span> coins each.</h4> 
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-sm-4">
+                  <p>Number of Goomba's caught:</p>
+                   <input id="goombasCaught" type="text"> 
+                  <button id="addGoombas">Submit</button>
+                    <label for""></label><input type="text" id="totalGoombasCaught" onclick="change()">
+                     </div>
+                      <div class="col-sm-4">
+                    <p>Number of Bob-omb's caught:</p>
+                   <input id="bobomsCaught" type="text">
+                   <button id="add">Submit</button>
+                  </div>
+                   <div class="col-sm-4">
+                      <p>Number of Cheep-cheep's caught:</p>
+                   <input id="cheepcheepsCaught" type="text">
+                   <button id="add">Submit</button>
+                </div>
+                </div>
+                   
+            <div class="row">
+               <div class="col-sm-4">
+                
+                <label for"">Total coins for Goomba's:</label><input type="text" id="totalGoombaCost" onchange="change()">
+                 </div>
+                  <div class="col-sm-4">
+                  <label for"">Total coins for Bob-omb's:</label><input type="text" id="totalBobombCost" onchange="change()">
+                  </div>
+                   <div class="col-sm-4"> 
+                   <label for"">Total coins for Cheep-cheep's:</label><input type="text" id="totalCheepcheepCost" onchange="change()">
+                 </div>  
+                
+                   
+                   
+                    
+                
+           </div>
+        </div> 
+        
+        
+        
+        
+        
+        
+        <script src="app.js"></script>
+    </body>
+    
+</html>
