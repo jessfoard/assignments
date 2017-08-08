@@ -24,20 +24,20 @@ function Person (firstName, lastName, age) {
     this.lastName = lastName;
     this.age = age;
     this.printInfo = function (){
-        return 'First Name: ' + this.firstName, 'Last Name: ' + this.lastName, 'Age: ' + this.age;
+        return 'First Name: ' + this.firstName + ' Last Name: ' + this.lastName + ' Age: ' + this.age;
     }
 }
 
-var person1 = new Person(document.getElementById('firstNameIpt'));
+
 
 
 
 
 
 subButton.addEventListener('click', function() {
-    console.log('Hello');
-    outPutBox.textContent = person1.printInfo.value();
     
+   var newPerson = new Person(firstName.value, lastName.value, age.value);
+    outPutBox.innerHTML = newPerson.printInfo();
 });
 
 

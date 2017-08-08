@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.outside-box {
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.inside-box {
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+
+.top-left {
+    height: 35%;
+    width: 35%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    height: 35%;
+    width: 35%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    height: 35%;
+    width: 35%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+    
+.bottom-right {
+    height: 35%;
+    width: 35%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
