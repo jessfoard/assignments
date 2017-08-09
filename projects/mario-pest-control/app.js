@@ -1,11 +1,14 @@
-var goombaCoin = document.getElementById('goombasCaught');
+var goombasCaught = document.getElementById('goombasCaught');
+
+
 var subButton = document.getElementById('addGoombas');
 
 
 
-subButton.addEventListener('click' function() {
-    var outPut = document.getElementById('')
-})
+subButton.addEventListener('click', function() {
+    var outPut = document.getElementById('totalGoombasCaught');
+    goombasCaught.innerHTML = outPut;
+});
 
 
 
@@ -20,8 +23,8 @@ subButton.addEventListener('click' function() {
 
 
 
-var goombaCost = parseInt(document.getElementById("goombaCoin").textContent);
-
+//var goombaCost = parseInt(document.getElementById("goombaCoin"));
+//goombaCost.innerHTML = outPut;
 
 
 //document.getElementById("goombasCaught").addEventListener("click", function () {

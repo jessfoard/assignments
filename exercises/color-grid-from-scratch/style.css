@@ -8,7 +8,8 @@
     width: 100%;
     height: 185px;
     display: inline-block;
-    border: 10px solid white;       
+    border: 10px solid white;
+    transition-timing-function: ease;
 }
 
 .line2 {
@@ -16,7 +17,27 @@
     width: 25%;
     height: 185px;
     display: inline-block;
-    border: 10px solid white;       
+    border: 10px solid white;
+}
+
+#line1:hover {
+    cursor: -webkit-grab;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #999;
+    
+}
+
+#line1:active {
+    cursor: -webkit-grabbing;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 50%;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px #999;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
 }
 
 .line3 {
