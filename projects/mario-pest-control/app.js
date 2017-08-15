@@ -1,13 +1,17 @@
+var goombaCoin = document.getElementById("goombaCoin");
 var goombasCaught = document.getElementById('goombasCaught');
-
-
 var subButton = document.getElementById('addGoombas');
-
-
+//var outPut = document.getElementById('totalGoombaCost');
+var totalGoombaCost = function() {
+    return 5 * goombasCaught.value;
+}
 
 subButton.addEventListener('click', function() {
-    var outPut = document.getElementById('totalGoombasCaught');
-    goombasCaught.innerHTML = outPut;
+    //var totalGoombaCost = 5 * goombasCaught.value;
+    //var totalCost = totalGoombaCost ;
+    document.getElementById("totalGoombaCost").innerHTML = totalGoombaCost.value;
+    
+    subButton.addEventListener(totalGoombaCost);
 });
 
 

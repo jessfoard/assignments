@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+              <h1>My Todo's:</h1>
+          </div>
+      </div>
+   <form onSumbit="submit">
+       <input id="title" type="text" placeholder="Title">
+       <input id="description" type="text" placeholder="description">
+       <input id="price" type="text" placeholder="price">
+       <input id="url" type="text" placeholder="Image URL">
+       <button type="submit">+</button>
+       
+   </form>
+   </div>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
