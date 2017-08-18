@@ -1,0 +1,18 @@
+.header-wrapper {
+  background-image: url("https://img.discogs.com/AIbcM4YWJh9t9nUb-Aex1lNgF7g=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-759908-1155983637.jpeg.jpg");
+}
+
+.header-title {
+  font-size: 100px;
+  color: #f8d331;
+  text-align: center;
+}
+
+.footer-wrapper {
+  background-color: black;
+}
+
+.footer-content {
+  color: #f8d331;
+  text-align: center;
+}
